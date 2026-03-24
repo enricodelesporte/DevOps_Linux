@@ -1,4 +1,39 @@
-Meu primeiro projeto na VM !!
+# Projeto Linux - Simulação de Sistema Bancário
+
+Meu primeiro projeto utilizando uma VM Linux na Azure.
+
+A proposta foi praticar comandos básicos do terminal simulando um sistema bancário simples, com organização de clientes, transações, logs e análise de dados.
+
+---
+
+## Estrutura do projeto
+
+### clientes
+- cliente_001_joao_silva.txt  
+- cliente_002_maria_santos.txt  
+- cliente_003_pedro_oliveira.txt  
+
+### transacoes
+- transacoes_janeiro_2025.txt  
+- transacoes_fevereiro_2025.txt  
+
+### logs
+- sistema_dimdim.log  
+- acesso_usuarios.log  
+- transacoes_api.log  
+- erro_sistema.log  
+
+### relatorios
+
+### backup
+
+---
+
+## Criação dos logs
+
+```bash
+cd logs
+touch sistema_dimdim.log acesso_usuarios.log transacoes_api.log erro_sistema.logMeu primeiro projeto na VM !!
 #  Projeto Linux - Simulação de Sistema Bancário
 
 Esse projeto foi desenvolvido como atividade prática utilizando uma máquina virtual Linux na Azure.
