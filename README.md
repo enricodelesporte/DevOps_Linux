@@ -1,3 +1,4 @@
+
 # Projeto Linux - Simulação de Sistema Bancário
 
 Meu primeiro projeto utilizando uma VM Linux na Azure.
@@ -73,3 +74,21 @@ cp
 cd
 mv
 tail
+
+## Aula 3
+
+Nessa etapa do projeto continuei aprofundando os conhecimentos em Linux, trabalhando principalmente com manipulação de arquivos, permissões, processos e comandos mais avançados.
+
+Comecei utilizando comandos como `chmod` para alterar permissões de arquivos, entendendo melhor como funcionam os níveis de acesso (usuário, grupo e outros) e a representação numérica dessas permissões.
+
+Também utilizei o comando `ls -a` para visualizar arquivos ocultos e compreendi melhor a estrutura do sistema Linux, incluindo diretórios e arquivos de configuração.
+
+Na parte de manipulação de texto, trabalhei com comandos como `cat`, `head` e `tail` para leitura de arquivos, além do uso de redirecionamento (`>`) para salvar saídas de comandos em arquivos.
+
+Outro ponto importante foi o uso do pipe (`|`), permitindo encadear comandos e processar dados de forma mais eficiente. Combinei comandos como `ls`, `grep`, `head` e `tail` para filtrar e analisar informações.
+
+Também explorei o comando `tr` para transformação de texto e o `grep` para busca de padrões dentro de arquivos, o que é muito útil para análise de logs e dados.
+
+Na parte de processos, utilizei comandos como `ps`, `top`, `sleep` e `kill`, entendendo como monitorar e controlar processos no sistema. Também aprendi a executar processos em background utilizando `&` e a trazer de volta para o foreground com `fg`.
+
+No geral, essa etapa foi importante para consolidar o uso do terminal Linux, tornando mais claro como automatizar tarefas, manipular arquivos e entender o funcionamento do sistema.
