@@ -92,3 +92,37 @@ Também explorei o comando `tr` para transformação de texto e o `grep` para bu
 Na parte de processos, utilizei comandos como `ps`, `top`, `sleep` e `kill`, entendendo como monitorar e controlar processos no sistema. Também aprendi a executar processos em background utilizando `&` e a trazer de volta para o foreground com `fg`.
 
 No geral, essa etapa foi importante para consolidar o uso do terminal Linux, tornando mais claro como automatizar tarefas, manipular arquivos e entender o funcionamento do sistema.
+
+##Aula Docker
+
+O Docker é uma plataforma de código aberto que permite criar, empacotar e executar aplicações em ambientes isolados chamados containers. Esses containers incluem tudo o que a aplicação precisa para funcionar, como código, bibliotecas e dependências, garantindo que ela rode da mesma forma em qualquer ambiente, seja no desenvolvimento, testes ou produção.
+
+Ele é amplamente utilizado para resolver o problema clássico de “funciona na minha máquina”, padronizando o ambiente de execução e facilitando a portabilidade entre diferentes sistemas.
+
+Para que serve:
+
+O Docker serve para simplificar o desenvolvimento, distribuição e execução de aplicações. Com ele, é possível:
+
+Criar ambientes consistentes e reproduzíveis
+Isolar aplicações e suas dependências
+Facilitar a integração contínua e entrega contínua (CI/CD)
+Executar múltiplos serviços de forma independente no mesmo sistema
+
+Vantagens
+Portabilidade: funciona em qualquer máquina que tenha Docker instalado
+Leveza: containers são mais rápidos e consomem menos recursos que máquinas virtuais
+Escalabilidade: facilita a criação e replicação de serviços
+Isolamento: evita conflitos entre dependências de diferentes projetos
+Produtividade: acelera o setup de ambientes e o onboarding de novos desenvolvedores
+Principais funções
+Build de imagens: criação de imagens a partir de um Dockerfile
+Execução de containers: iniciar, parar e gerenciar containers
+Gerenciamento de volumes: persistência de dados
+Redes: comunicação entre containers
+Orquestração básica: com ferramentas como Docker Compose, para rodar múltiplos serviços juntos
+
+Passo a passo:
+
+1° Entre no VsCode
+2° Baixe a entensão do Docker 
+3° No terminal coloque o comenado "docker" e em seguida o comando "docker container run ubuntu" (Na lateral esquerda vai aparecer o ícone de Containers)
